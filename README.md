@@ -54,7 +54,8 @@ cd LDSSNV
 ### 5.1 测试数据下载及说明
 
 #### 5.1.1 下载
-「LDSSNV_DATA」https://www.aliyundrive.com/s/JnpiLh8XWrN 点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
+「LDSSNV_DATA」https://www.aliyundrive.com/s/4KRjUKeuqiJ
+点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
 
 #### 5.1.2 说明
 
