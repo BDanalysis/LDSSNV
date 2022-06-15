@@ -9,23 +9,23 @@
 DSSNV: A Linkage Disequilibrium-Based Method for the Detection of Somatic Single-nucleotide Variants
 
 
-## 安装环境（Linux）
+## 1. 安装环境（Linux）
 如有以下安装包请忽略
-BWA
-Samtools
-XGBoost
-pandas
-csv
-numpy
+1. BWA
+2. Samtools
+3. XGBoost
+4. pandas
+5. csv
+6. numpy
 
-### 1. conda 安装(推荐)
+### 1.1 conda 安装(推荐)
 ```
 sudo apt install bwa
 sudo apt install samtools
 
 conda install pandas csv numpy XGBoost
 ```
-### 2. pip 安装
+### 1.2 pip 安装
 ```
 sudo apt install bwa
 sudo apt install samtools
@@ -35,30 +35,30 @@ pip3 install pandas
 pip3 install csv
 pip3 install numpy
 ```
-## 下载
+## 2. 下载
 ```
 git clone https://github.com/BDanalysis/LDSSNV
 cd LDSSNV
 ```
 
-## 文件结构
+## 3. 文件结构
 
 
-## 运行
+## 4. 运行
 检测体细胞SNV, 分为单样本模式和多样本模式。
-### 2. 单样本检测somatic SNV
+### 4.1 单样本检测somatic SNV
 
-### 3. 多样不检测somatic SNV
+### 4.2 多样本检测somatic SNV
 
-## 其它
-### 测试数据下载及说明
+## 5. 其它
+### 5.1 测试数据下载及说明
 
-#### 下载
+#### 5.1.1 下载
 「LDSSNV_DATA」https://www.aliyundrive.com/s/JnpiLh8XWrN 点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
 
-### 说明
+#### 5.1.2 说明
 
-### 文件中标签的定义
+### 5.2 文件中标签的定义
 > 0 代表 germline SNV
 
 > 1 代表 somatic SNV
@@ -71,7 +71,7 @@ cd LDSSNV
 
 > 5 代表 假的SNV
 
-### CNV检测结果文件格式（csv）
+### 5.3 CNV检测结果文件格式（csv）
 总共包含5列：染色体名称，开始位置，结束位置，扩增（I）或缺失（D），拷贝数的数量
 
 例子如下：
@@ -81,9 +81,9 @@ chr21,4008845,4029066,D,1
 chr21,5753247,5839641,I,8
 ...
 ```
-### 检测的所有SNV的结果文件格式
+### 5.4 检测的所有SNV的结果文件格式
 
-### 检测的所有somatic SNV的结果文件格式
+### 5.5 检测的所有somatic SNV的结果文件格式
 
 
 
