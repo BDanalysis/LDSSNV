@@ -40,13 +40,23 @@ pip3 install numpy
 git clone https://github.com/BDanalysis/LDSSNV
 cd LDSSNV
 ```
+
+## 文件结构
+
+
 ## 运行
 检测体细胞SNV, 分为单样本模式和多样本模式。
 ### 2. 单样本检测somatic SNV
 
 ### 3. 多样不检测somatic SNV
 
-## 说明
+## 其它
+### 测试数据下载及说明
+
+#### 下载
+「LDSSNV_DATA」https://www.aliyundrive.com/s/JnpiLh8XWrN 点击链接保存，或者复制本段内容，打开「阿里云盘」APP ，无需下载极速在线查看，视频原画倍速播放。
+
+### 说明
 
 ### 文件中标签的定义
 > 0 代表 germline SNV
@@ -75,5 +85,5 @@ chr21,5753247,5839641,I,8
 
 ### 检测的所有somatic SNV的结果文件格式
 
-## 文件结构
+
 
