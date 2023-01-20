@@ -41,11 +41,13 @@ python LDSSNV-single/detect_somatic_snv.py
 With the SNVs detected from each of multiple samples in 2.1,  get feature matrix and distinguish somatic SNV: 
 
 python LDSSNV-Multi/get_feature_matrix.py
+
 python LDSSNV-Multi/detect_somatic_snv.py
 
 ### 2.4 SNV detection and distinguishing combined.
 
 LDSSNV-Single/run.sh
+
 LDSSNV-Multi/run.sh
 
 ## 4. generate multiple simulation samples
@@ -66,8 +68,13 @@ Click on the following link to save, or open the "Alibaba Cloud Disk" APP. You d
 
 ### 5.2 meaning of numbers in files
 > 0 - germline SNV
+> 
 > 1 - somatic SNV
+> 
 > 2 - Homozygous
-> 3 - Heterozygous 
+> 
+> 3 - Heterozygous
+>  
 > 4 - real SNV
+> 
 > 5 - false SNV
