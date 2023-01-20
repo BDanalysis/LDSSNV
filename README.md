@@ -38,12 +38,9 @@ With the SNVs detected from a single sample in 2.1, run:
 python LDSSNV-single/detect_somatic_snv.py
 
 ### 2.3 Distinguish somatic-germline SNV (Multiple-mode)
-With the SNVs detected from each of multiple samples in 2.1, run: 
+With the SNVs detected from each of multiple samples in 2.1,  get feature matrix and distinguish somatic SNV: 
 
-   # get feature matrix
 python LDSSNV-Multi/get_feature_matrix.py
-
-   # distinguish somatic SNVs
 python LDSSNV-Multi/detect_somatic_snv.py
 
 ### 2.4 SNV detection and distinguishing combined.
