@@ -68,13 +68,19 @@ Click on the following link to save, or open the "Alibaba Cloud Disk" APP. You d
 
 ### 5.2 meaning of numbers in files
 > 0 - germline SNV
-> 
 > 1 - somatic SNV
-> 
 > 2 - Homozygous
-> 
-> 3 - Heterozygous
->  
+> 3 - Heterozygous 
 > 4 - real SNV
-> 
 > 5 - false SNV
+
+### 5.3 CNV format（csv）
+5 columns：chromosome numer，location_start，location_end，insersion（I）or deletion（D），copy number
+
+Examples：
+```
+chr21,666828,710377,I,10
+chr21,4008845,4029066,D,1
+chr21,5753247,5839641,I,8
+...
+```
