@@ -50,12 +50,12 @@ LDSSNV-Single/run.sh
 
 LDSSNV-Multi/run.sh
 
-## 4. generate multiple simulation samples
+## 4. Generate multiple simulation samples
 
-### 4.1 using the LD simulator
+### 4.1 Using the LD simulator
 using germline variant-site files produced by LD_simulator/gen_LD_SNP.py, perform the simulation tool SInC to insert somatic copy number variation and indels and then generate sequencing reads.
 
-### 4.2 using variant-site information from real data
+### 4.2 Using variant-site information from real data
 
 using somatic and germline variant-site files from real data, perform the simulation tool SInC to insert copy number variation and indels and then generate sequencing reads.
 
